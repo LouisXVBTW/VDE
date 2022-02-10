@@ -1,4 +1,4 @@
 # Practicle - gdb
 
-![placeholder](..\week1task1.png)
+![placeholder](..\images\week1task1.png)
 
