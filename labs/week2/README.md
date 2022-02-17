@@ -37,3 +37,10 @@ Copy the following code to a C file; compile it and run the program to appreciat
 <p align='center'>
 <img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2variablescope.png">
 </p>
+
+### Memory Segmentation
+Copy the following code to a C file; compile it and run the program to appreciate different parts of memory.
+
+<p align='center'>
+<img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2memorySegmentation.png">
+</p>
