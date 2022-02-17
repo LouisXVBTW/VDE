@@ -30,3 +30,10 @@ Did this ( take screenshots)
 <p align='center'>
 <img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2task5.png">
 </p>
+
+### Variable Scope
+Copy the following code to a C file; compile it and run the program to appreciate the scope of various variable types.
+
+<p align='center'>
+<img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2variablescope.png">
+</p>
