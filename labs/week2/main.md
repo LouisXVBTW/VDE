@@ -12,13 +12,13 @@ All exe files are compiled like this
 Did this ( take screenshots)
 
 ### 4) Open the executable files in the gdb environment using: gdb integeroverflow. Once in the environment we can “list” the program code, set execution breakpoints, run the code and look at the contents of the registers using the following:
->list
->break x //where x is a line number
->run //run the code up to the break point
->continue //continue to execute the code after the break point
->info register //show the contents of the registers
->x/x &i //show the memory contents for the variable i
-
+>list\
+>break x //where x is a line number\
+>run //run the code up to the break point\
+>continue //continue to execute the code after the break point\
+>info register //show the contents of the registers\
+>x/x &i //show the memory contents for the variable i\
+<p align='center'>
 ![placeholder](../../images/week2task1.png)
-
+</p>
 ### 5) Using gdb look at the memory to identify what is happening when an integer overflows/wraps around
