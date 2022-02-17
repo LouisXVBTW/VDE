@@ -1,4 +1,4 @@
-# Week 2
+## Week 2
 
 ### 1) Copy the aforementioned codes and save them into individual files (e.g. intergeroverflow.c). Identify what the programs do.
 
@@ -44,3 +44,9 @@ Copy the following code to a C file; compile it and run the program to appreciat
 <p align='center'>
 <img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2memorySegmentation.png">
 </p>
+
+### Aditional task
+
+Copy the following code to a C file; compile it and run the program. Try various inputs and see if you can discover any vulnerability and exploit the program (i.e. print the “The ‘modified’ variable is changed.....” on the command line).
+Hint (gdb is your friend)
+
