@@ -18,7 +18,7 @@ Did this ( take screenshots)
 >continue //continue to execute the code after the break point\
 >info register //show the contents of the registers\
 >x/x &i //show the memory contents for the variable i\
-<img align='center'>
-![placeholder](../../images/week2task1.png)
-</img>
+<p align='center'>
+<img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week2task1.png">
+</p>
 ### 5) Using gdb look at the memory to identify what is happening when an integer overflows/wraps around
