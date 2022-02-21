@@ -23,7 +23,7 @@ In this task, find the ESP, EBP and Return address in the stack frames of the fo
 |ebp|0xffffd038|
 |main rtn|0x56556276|
 
-|Fun1 Register|Fun1 Address|
+|Fun1 Registers|Fun1 Address|
 |:-----------:|-----------:|
 |esp|0xffffd000|
 |ebp|0xffffd018|
