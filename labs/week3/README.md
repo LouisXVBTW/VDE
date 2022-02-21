@@ -16,10 +16,11 @@ In this task, find the ESP, EBP and Return address in the stack frames of the fo
 <p align='center'>
 <img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week3task1a.png">
 </p>
-
-esp            0xffffd020\
-ebp            0xffffd038\
-main rtn       0x56556276
+|Main Register|Main Address|
+|:----|----:|
+|esp |0xffffd020|
+|ebp|0xffffd038|
+|main rtn|0x56556276|
 
 esp            0xffffd000\
 ebp            0xffffd018\
