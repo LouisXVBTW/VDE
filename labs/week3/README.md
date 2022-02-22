@@ -41,3 +41,10 @@ In this task, discover buffer overflow vulnerability and exploit the program of 
 <p align='center'>
 <img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week3task2.png">
 </p>
+
+### Task 3
+In this task, discover buffer overflow vulnerability and exploit the program of the following code (e.g. executing the for loop in the vde_msg() function)
+
+### Additional Task
+Download the serial.c file from moodle. Then compile it and run the program. Try various inputs and see if you can discover any vulnerability and exploit the program (i.e. print the “The serial number is valid” on the command line).
+
