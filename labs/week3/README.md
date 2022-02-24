@@ -54,7 +54,10 @@ the ending is the return address being replaced with the address of the function
 in this case the addr is 0x565561c9 but we need to reverse it and then overflow to it
 idk why we need to reverse it but we do. 44 A's and the addr
 
-
+<p align='center'>
+<img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week3task3a.png">
+<img src="https://github.com/LouisXVBTW/Vulnerability-Discovery-And-Exploitation/blob/main/images/week3task3b.png">
+</p>
 
 
 ### Additional Task
