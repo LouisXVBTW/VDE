@@ -1,0 +1,19 @@
+call func get msg:0x00001297 
+
+getMessage address:0x0000120a 
+
+vde_msg address:0x000011c9 
+
+
+replace this rtn addr : 0x0000129c
+
+
+
+main
+esp            0xffffd0c0          0xffffd0c0
+ebp            0xffffd0c8          0xffffd0c8
+
+getMessage
+esp            0xffffd090          0xffffd090
+ebp            0xffffd0b8          0xffffd0b
+
