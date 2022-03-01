@@ -62,3 +62,5 @@ idk why we need to reverse it but we do. 44 A's and the addr
 
 ### Additional Task
 Download the serial.c file from moodle. Then compile it and run the program. Try various inputs and see if you can discover any vulnerability and exploit the program (i.e. print the “The serial number is valid” on the command line).
+
+(need to do)
