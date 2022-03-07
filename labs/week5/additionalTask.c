@@ -19,14 +19,13 @@ int main(int argc, char** argv){
         format(buf);
     }
 
-    if (changeme != 0x51525354){
+    if (changeme == 0x51525354){
         puts("Well done, the 'changeme' variable has been changed correctly!\n");
 
     } else{
-        puts("Better luck next time, you got 0x%08x, 0x51525354 is needed.\n", changeme);
+        printf("Better luck next time, you got 0x%08x, 0x51525354 is needed.\n", changeme);
 
     }
-
-    printf("%d\n", changeme);
+    
     exit(0);
 }
