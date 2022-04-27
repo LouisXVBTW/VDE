@@ -17,17 +17,17 @@ else
 int readFile(char *argv)
 {
 FILE *inFile;
-char filename[24];
+char filename[24]; //overflow stack
 char c;
 int x;
 int filesize=0;
 int ChunkID;
 int ChunkSize;
-char Format[8];
+char Format[8]; //overflow stack?
 int bitsPerSample;
 char *file;
 char ID[8],tmp;
-strcpy(filename,argv);
+strcpy(filename,argv); //overflow from here?
 if ((inFile=fopen(filename,"r"))==NULL) {printf("Error\n");exit(0);}
 
 while((c=fgetc(inFile))!=EOF)
